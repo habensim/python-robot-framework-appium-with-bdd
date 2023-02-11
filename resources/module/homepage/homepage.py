@@ -26,26 +26,13 @@ class Homepage:
         assert_text(placeholder_search,exp_placeholder)
 
     def get_search_result(driver, search_term):
-        # Locate the search field element
         search_field = driver.find_element_by_id(searching_input)
-
-        # Enter the search term into the search field
         search_field.send_keys(search_term)
-
-        # Wait for the search results to be displayed
-        # (use an appropriate method for your specific test environment)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((MobileBy.ID, result_searching_ct)))
-
-        # Locate the first result in the search results
         first_result = driver.find_element_by_id(result_searching)
-
-        # Get the text of the first result
         result = first_result.text
-
-        # Print and log the result
         print(f"The result of the search for '{search_term}' is '{result}'")
         logging.info(f"The result of the search for '{search_term}' is '{result}'")
-
         return result
 
     def searching_product(self):
