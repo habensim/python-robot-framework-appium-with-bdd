@@ -1,6 +1,7 @@
 import sys 
 import os
 import re
+import logging
 from time import sleep
 import time
 current_directory = os.getcwd()
@@ -17,6 +18,9 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from appium.webdriver.common.touch_action import TouchAction
+from resources.helper.Element import *
+from resources.module.homepage.Selector import *
+from robot.api import logger
 
 # Get element by ID
 def get_scrollable_element_by_id(element_id):
@@ -305,4 +309,15 @@ def swipe_element_by_id(driver, element_id, direction):
         y2 = y1 + size['height']
 
     driver.swipe(x1, y1, x2, y2, duration=1000)
+
+def get_search_result(driver, search_term):
+        search_field = driver.find_element_by_id(searching_input)
+        search_field.send_keys(search_term)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((MobileBy.ID, result_searching_ct)))
+        result_items = driver.find_elements_by_class_name(result_searching)
+        for result_item in result_items:
+            logger.info("Result item: " + result_item.text)
+
+        return result_items
+
 

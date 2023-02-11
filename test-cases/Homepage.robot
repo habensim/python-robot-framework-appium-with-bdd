@@ -5,7 +5,9 @@ Documentation     Test Case For Testing Android APP
 Resource          ../keywords/Libraries.robot
 
 *** Test Cases ***
-Scenario 1 - Open Application To Emulator
+Scenario 1 - Verify Header And Searching Product Topi
     Given Reopen Application
     Then Welcome Carousel Swipe
     And Verify Element Header
+    And Searching Product Tokped
+    

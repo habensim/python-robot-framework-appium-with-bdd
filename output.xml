@@ -1,30 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.8.9 on darwin)" generated="20230211 23:37:53.416" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.8.9 on darwin)" generated="20230212 00:36:33.623" rpa="false" schemaversion="3">
 <suite id="s1" name="Homepage" source="/Users/habensimanjuntak/Documents/QA/automation/otoauto/python-robot-framework-appium-with-bdd/test-cases/Homepage.robot">
-<test id="s1-t1" name="Scenario 1 - Open Application To Emulator" line="8">
+<test id="s1-t1" name="Scenario 1 - Verify Header And Searching Product Topi" line="8">
 <kw name="Given Reopen Application" library="Launch">
 <kw name="Launch Application" library="Application">
-<status status="PASS" starttime="20230211 23:38:09.004" endtime="20230211 23:38:20.382"/>
+<status status="PASS" starttime="20230212 00:36:58.766" endtime="20230212 00:37:11.631"/>
 </kw>
-<status status="PASS" starttime="20230211 23:38:09.002" endtime="20230211 23:38:20.383"/>
+<status status="PASS" starttime="20230212 00:36:58.765" endtime="20230212 00:37:11.633"/>
 </kw>
 <kw name="Then Welcome Carousel Swipe" library="Homepage">
 <kw name="Carousel Usp Swipe" library="Homepage">
-<status status="PASS" starttime="20230211 23:38:20.385" endtime="20230211 23:38:26.135"/>
+<status status="PASS" starttime="20230212 00:37:11.635" endtime="20230212 00:37:17.222"/>
 </kw>
-<status status="PASS" starttime="20230211 23:38:20.384" endtime="20230211 23:38:26.135"/>
+<status status="PASS" starttime="20230212 00:37:11.634" endtime="20230212 00:37:17.223"/>
 </kw>
 <kw name="And Verify Element Header" library="Homepage">
 <kw name="Verify Header Element" library="Homepage">
-<status status="PASS" starttime="20230211 23:38:26.137" endtime="20230211 23:38:40.314"/>
+<status status="PASS" starttime="20230212 00:37:17.225" endtime="20230212 00:37:26.503"/>
 </kw>
-<status status="PASS" starttime="20230211 23:38:26.136" endtime="20230211 23:38:40.315"/>
+<status status="PASS" starttime="20230212 00:37:17.224" endtime="20230212 00:37:26.505"/>
 </kw>
-<status status="PASS" starttime="20230211 23:38:09.001" endtime="20230211 23:38:40.315"/>
+<kw name="And Searching Product Tokped" library="Homepage">
+<kw name="Searching Product" library="Homepage">
+<msg timestamp="20230212 00:37:36.835" level="INFO">Result item: topi di promo hari ini</msg>
+<msg timestamp="20230212 00:37:36.845" level="INFO">Result item: topi</msg>
+<msg timestamp="20230212 00:37:36.868" level="INFO">Result item: topi pria</msg>
+<msg timestamp="20230212 00:37:36.877" level="INFO">Result item: topi baseball</msg>
+<msg timestamp="20230212 00:37:36.901" level="INFO">Result item: topi rimba</msg>
+<msg timestamp="20230212 00:37:36.949" level="INFO">Result item: topi anak</msg>
+<msg timestamp="20230212 00:37:36.987" level="INFO">Result item: Toko</msg>
+<msg timestamp="20230212 00:37:37.018" level="INFO">Result item: Ad</msg>
+<msg timestamp="20230212 00:37:37.059" level="INFO">Result item: topipedia</msg>
+<msg timestamp="20230212 00:37:37.079" level="INFO">Result item: Kota Bandung</msg>
+<msg timestamp="20230212 00:37:37.144" level="INFO">Result item: Topi Koki Official Store</msg>
+<msg timestamp="20230212 00:37:37.189" level="INFO">Result item: Kab. Tangerang</msg>
+<msg timestamp="20230212 00:37:37.218" level="INFO">Result item: topikam</msg>
+<msg timestamp="20230212 00:37:37.233" level="INFO">Result item: Bandung</msg>
+<msg timestamp="20230212 00:37:37.243" level="INFO">Result item: topi jerami-toys</msg>
+<msg timestamp="20230212 00:37:37.254" level="INFO">Result item: Kab. Majalengka</msg>
+<msg timestamp="20230212 00:37:37.272" level="INFO">Result item: topibulat.fashion</msg>
+<msg timestamp="20230212 00:37:37.282" level="INFO">Result item: Jakarta</msg>
+<msg timestamp="20230212 00:37:37.294" level="INFO">Result item: topimantulsecond</msg>
+<msg timestamp="20230212 00:37:37.307" level="INFO">Result item: Bekasi</msg>
+<msg timestamp="20230212 00:37:37.307" level="INFO">The search was unsuccessful</msg>
+<status status="PASS" starttime="20230212 00:37:26.506" endtime="20230212 00:37:37.308"/>
+</kw>
+<status status="PASS" starttime="20230212 00:37:26.505" endtime="20230212 00:37:37.308"/>
+</kw>
+<status status="PASS" starttime="20230212 00:36:58.763" endtime="20230212 00:37:37.310"/>
 </test>
 <doc>Test Case For Testing Android APP
 Based on test case at the google sheet below</doc>
-<status status="PASS" starttime="20230211 23:37:53.417" endtime="20230211 23:38:40.317"/>
+<status status="PASS" starttime="20230212 00:36:33.630" endtime="20230212 00:37:37.316"/>
 </suite>
 <statistics>
 <total>
