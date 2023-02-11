@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.9 on darwin)" generated="20230211 23:37:53.416" rpa="false" schemaversion="3">
+<suite id="s1" name="Homepage" source="/Users/habensimanjuntak/Documents/QA/automation/otoauto/python-robot-framework-appium-with-bdd/test-cases/Homepage.robot">
+<test id="s1-t1" name="Scenario 1 - Open Application To Emulator" line="8">
+<kw name="Given Reopen Application" library="Launch">
+<kw name="Launch Application" library="Application">
+<status status="PASS" starttime="20230211 23:38:09.004" endtime="20230211 23:38:20.382"/>
+</kw>
+<status status="PASS" starttime="20230211 23:38:09.002" endtime="20230211 23:38:20.383"/>
+</kw>
+<kw name="Then Welcome Carousel Swipe" library="Homepage">
+<kw name="Carousel Usp Swipe" library="Homepage">
+<status status="PASS" starttime="20230211 23:38:20.385" endtime="20230211 23:38:26.135"/>
+</kw>
+<status status="PASS" starttime="20230211 23:38:20.384" endtime="20230211 23:38:26.135"/>
+</kw>
+<kw name="And Verify Element Header" library="Homepage">
+<kw name="Verify Header Element" library="Homepage">
+<status status="PASS" starttime="20230211 23:38:26.137" endtime="20230211 23:38:40.314"/>
+</kw>
+<status status="PASS" starttime="20230211 23:38:26.136" endtime="20230211 23:38:40.315"/>
+</kw>
+<status status="PASS" starttime="20230211 23:38:09.001" endtime="20230211 23:38:40.315"/>
+</test>
+<doc>Test Case For Testing Android APP
+Based on test case at the google sheet below</doc>
+<status status="PASS" starttime="20230211 23:37:53.417" endtime="20230211 23:38:40.317"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Homepage">Homepage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -7,3 +7,5 @@ Resource          ../keywords/Libraries.robot
 *** Test Cases ***
 Scenario 1 - Open Application To Emulator
     Given Reopen Application
+    Then Welcome Carousel Swipe
+    And Verify Element Header

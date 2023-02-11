@@ -1,0 +1,6 @@
+usp_carousel="com.tokopedia.tkpd.df_base:id/imagePageDynamicOnbaording"
+selanjutnya="com.tokopedia.tkpd.df_base:id/nextDynamicOnbaording"
+skiponboarding="com.tokopedia.tkpd.df_base:id/skipDynamicOnbaording"
+element_search="com.tokopedia.tkpd:id/layout_search"
+icon_magnify="com.tokopedia.tkpd:id/search_magnify_icon"
+text_searching="com.tokopedia.tkpd:id/et_search"
