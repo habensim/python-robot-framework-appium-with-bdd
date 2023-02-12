@@ -5,10 +5,10 @@ on:
     branches:
       - main
   workflow_dispatch:
-  
+
 jobs:
   automation-test:
-    runs-on: [self-hosted, robot-selenium-py]
+    runs-on: [self-hosted, python-robot-framework-appium-with-bdd]
     steps:
       - uses: actions/checkout@v3
       - name: Installing automation requirements 
