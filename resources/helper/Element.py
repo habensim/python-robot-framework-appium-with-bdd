@@ -291,7 +291,8 @@ def verify_element_state(element,expected_state):
         assert element.get_attribute("enabled") == 'false'
 
 def swipe_element_by_id(driver, element_id, direction):
-    element = driver.find_element_by_id(element_id)
+    
+    element = driver.find_element(MobileBy.ID,element_id)
     location = element.location
     size = element.size
     x1 = location['x'] + size['width'] * 0.5
@@ -309,15 +310,4 @@ def swipe_element_by_id(driver, element_id, direction):
         y2 = y1 + size['height']
 
     driver.swipe(x1, y1, x2, y2, duration=1000)
-
-def get_search_result(driver, search_term):
-        search_field = driver.find_element_by_id(searching_input)
-        search_field.send_keys(search_term)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((MobileBy.ID, result_searching_ct)))
-        result_items = driver.find_elements_by_class_name(result_searching)
-        for result_item in result_items:
-            logger.info("Result item: " + result_item.text)
-
-        return result_items
-
 

@@ -5,6 +5,6 @@ element_search="com.tokopedia.tkpd:id/layout_search"
 icon_magnify="com.tokopedia.tkpd:id/search_magnify_icon"
 text_searching="com.tokopedia.tkpd:id/et_search"
 searching_input="com.tokopedia.tkpd:id/searchTextView"
-result_searching_ct="com.tokopedia.tkpd:id/autocompleteDoubleLineItem"
+result_searching_ct="com.tokopedia.tkpd:id/singleLineTitle"
 result_searching="android.widget.TextView"
 
