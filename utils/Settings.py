@@ -11,7 +11,9 @@ desired_caps = {
     "automationName": "UiAutomator2",
     "android:keepScreenOn": "true",
     "autoGrantPermissions":"true",
-    "autoAcceptAlerts":"true"
+    "autoAcceptAlerts":"true",
+    "fullReset":"false",
+    "noReset":"true"
 }
 
 driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_caps)

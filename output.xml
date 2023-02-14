@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.8.9 on darwin)" generated="20230213 15:00:52.070" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.8.9 on darwin)" generated="20230214 09:03:40.690" rpa="false" schemaversion="3">
 <suite id="s1" name="Homepage" source="/Users/habensimanjuntak/Documents/QA/automation/otoauto/python-robot-framework-appium-with-bdd/test-cases/Homepage.robot">
 <test id="s1-t1" name="Scenario 1 - Verify Header And Searching Product Topi" line="8">
 <kw name="Given Reopen Application" library="Launch">
-<kw name="Launch Application" library="Application">
-<status status="PASS" starttime="20230213 15:01:10.646" endtime="20230213 15:01:18.174"/>
+<kw name="Run Apk" library="Application">
+<status status="PASS" starttime="20230214 09:03:48.637" endtime="20230214 09:03:53.877"/>
 </kw>
-<status status="PASS" starttime="20230213 15:01:10.645" endtime="20230213 15:01:18.178"/>
+<status status="PASS" starttime="20230214 09:03:48.637" endtime="20230214 09:03:53.879"/>
 </kw>
 <kw name="Then Welcome Carousel Swipe" library="Homepage">
 <kw name="Carousel Usp Swipe" library="Homepage">
-<status status="PASS" starttime="20230213 15:01:18.182" endtime="20230213 15:01:19.781"/>
+<status status="PASS" starttime="20230214 09:03:53.884" endtime="20230214 09:03:55.272"/>
 </kw>
-<status status="PASS" starttime="20230213 15:01:18.182" endtime="20230213 15:01:19.781"/>
+<status status="PASS" starttime="20230214 09:03:53.883" endtime="20230214 09:03:55.276"/>
 </kw>
 <kw name="And Verify Element Header" library="Homepage">
 <kw name="Verify Header Element" library="Homepage">
-<status status="PASS" starttime="20230213 15:01:19.782" endtime="20230213 15:01:25.283"/>
+<status status="PASS" starttime="20230214 09:03:55.276" endtime="20230214 09:03:59.159"/>
 </kw>
-<status status="PASS" starttime="20230213 15:01:19.781" endtime="20230213 15:01:25.286"/>
+<status status="PASS" starttime="20230214 09:03:55.276" endtime="20230214 09:03:59.160"/>
 </kw>
 <kw name="And Searching Product Tokped" library="Homepage">
 <kw name="Searching Product" library="Homepage">
-<status status="PASS" starttime="20230213 15:01:25.288" endtime="20230213 15:01:33.040"/>
+<status status="PASS" starttime="20230214 09:03:59.162" endtime="20230214 09:04:06.824"/>
 </kw>
-<status status="PASS" starttime="20230213 15:01:25.287" endtime="20230213 15:01:33.042"/>
+<status status="PASS" starttime="20230214 09:03:59.161" endtime="20230214 09:04:06.825"/>
 </kw>
-<status status="PASS" starttime="20230213 15:01:10.645" endtime="20230213 15:01:33.042"/>
+<status status="PASS" starttime="20230214 09:03:48.635" endtime="20230214 09:04:06.826"/>
 </test>
 <doc>Test Case For Testing Android APP
 Based on test case at the google sheet below</doc>
-<status status="PASS" starttime="20230213 15:00:52.071" endtime="20230213 15:01:33.044"/>
+<status status="PASS" starttime="20230214 09:03:40.690" endtime="20230214 09:04:06.830"/>
 </suite>
 <statistics>
 <total>

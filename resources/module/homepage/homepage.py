@@ -6,11 +6,13 @@ sys.path.append(current_directory)
 
 from resources.module.homepage.Selector import *
 from resources.helper.Element import *
+from resources.module.android.Application import *
 from utils.Settings import driver
 from appium.webdriver.common.mobileby import MobileBy
 from robot.api import logger
 
 class Homepage:
+
     def carousel_usp_swipe(self):
         driver.implicitly_wait(10)
         selanjutnyabtn = get_element_presence_located_by_id(selanjutnya)

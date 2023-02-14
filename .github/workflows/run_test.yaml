@@ -16,4 +16,4 @@ jobs:
       - name: Running Automation Test 
         id: test
         run: |
-          python3 -m robot test-cases
+          python3 -m robot test-cases/Homepage.robot
